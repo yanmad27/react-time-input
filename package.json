@@ -1,10 +1,27 @@
 {
   "name": "@yanmad27/react-time-input",
-  "version": "0.1.1",
-  "dependencies": {
-    "react": "^18.1.0"
+  "version": "0.1.2",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/plugin-proposal-class-properties": "^7.17.12",
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-stage-0": "^7.8.3",
+    "babel-loader": "^8.2.5",
+    "babel-preset-react": "^6.24.1",
+    "path": "^0.12.7",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
   },
-  "main": "index.js",
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "main": "components/ReactTimeInput.js",
+  "scripts": {
+    "build": "webpack"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yanmad27/react-time-input.git"
