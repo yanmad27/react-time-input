@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     mode: 'production',
-    entry: './src/components/ReactTimeInput.js',
+    entry: './src/ReactTimeInput.js',
     output: {
         path: path.resolve('lib'),
         filename: 'ReactTimeInput.js',
